@@ -7,7 +7,10 @@ function App() {
   return (
     <>
       <Header />
-      <div>i am beginer but i tried maximum </div>
+      <h1>My Portfolio</h1>
+      {
+        // Add your portfolio content here
+      }
     </>
   )
 }
