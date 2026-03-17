@@ -1,6 +1,6 @@
 import Header from './header/header.jsx'
 import './App.css'
-
+import Skills from "./skills/skills.jsx"
 function App() {
   
 
@@ -8,9 +8,7 @@ function App() {
     <>
       <Header />
       <h1>My Portfolio</h1>
-      {
-        // Add your portfolio content here
-      }
+      <Skills />
     </>
   )
 }

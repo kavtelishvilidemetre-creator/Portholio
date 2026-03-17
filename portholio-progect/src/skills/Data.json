@@ -2,25 +2,25 @@
     {
         "name":"html",
         "id":1,
-        "img":"a",
+        "img":"../assets/img/html.png",
         "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate."
     },
     {
         "name":"css",
         "id":2,
-        "img":"a",
+        "img":"../assets/img/css.png",
         "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate."
     },
     {
         "name":"javascript",
         "id":3,
-        "img":"a",
+        "img":"../assets/img/js.png",
         "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate."
     },
     {
         "name":"react",
         "id":4,
-        "img":"a",
+        "img":"../assets/img/react.png",
         "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate."
     }
 ]
