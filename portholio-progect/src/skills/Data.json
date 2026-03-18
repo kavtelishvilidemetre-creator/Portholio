@@ -2,25 +2,25 @@
     {
         "name":"html",
         "id":1,
-        "img":"../assets/img/html.png",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1280px-HTML5_logo_and_wordmark.svg.png",
         "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate."
     },
     {
         "name":"css",
         "id":2,
-        "img":"../assets/img/css.png",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/250px-CSS3_logo_and_wordmark.svg.png",
         "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate."
     },
     {
         "name":"javascript",
         "id":3,
-        "img":"../assets/img/js.png",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/500px-JavaScript-logo.png",
         "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate."
     },
     {
         "name":"react",
         "id":4,
-        "img":"../assets/img/react.png",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/3840px-React-icon.svg.png",
         "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate."
     }
 ]

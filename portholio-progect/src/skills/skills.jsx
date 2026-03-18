@@ -8,14 +8,17 @@ function Skills(){
     useEffect(() => {
         fetch(url)
         .then(res => res.json())
-        .then(data => setSkills(data))
+    .then(data => {
+        setSkills(data)
+        console.log(data)
+    })
     }, []);
     return(
         <div className="skills">
             {skills.map((skills)=>{
                 return (
                 <div key={skills.id}>{skills.name}
-                    <img src={skills.image} alt={skills.name} />
+                    <img src={skills.img} alt={skills.name} />
                     
                     
                 </div>
