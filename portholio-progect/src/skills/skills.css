@@ -3,10 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-.skills-container {
+.skills {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
     padding: 20px;
+    div{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        img{
+            width: 50px;
+            height: 55px;
+        }
+        gap: 1px;
+    }
 }
