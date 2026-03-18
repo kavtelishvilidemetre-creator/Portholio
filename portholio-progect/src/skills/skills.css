@@ -13,10 +13,11 @@
         display:flex;
         justify-content: center;
         flex-direction: column;
+        gap: 5px;
+        margin:10px;
         img{
             width: 50px;
             height: 55px;
         }
-        gap: 1px;
     }
 }

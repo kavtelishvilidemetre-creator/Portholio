@@ -17,7 +17,8 @@ function Skills(){
         <div className="skills">
             {skills.map((skills)=>{
                 return (
-                <div key={skills.id}>{skills.name}
+                <div key={skills.id}>
+                    {skills.name}
                     <img src={skills.img} alt={skills.name} />
                     
                     
