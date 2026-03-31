@@ -3,6 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+.loading{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    color: red;
+    font-size: 35px;
+
+}
+.loaded{
+    visibility: hidden;
+}
 .skills {
     display: flex;
     flex-wrap: wrap;
