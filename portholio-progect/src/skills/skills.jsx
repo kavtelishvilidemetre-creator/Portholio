@@ -12,21 +12,24 @@ function Skills(){
         setSkills(data)
         console.log(data)
     })
-    }, []);
-    return(
-        <div className="skills">
-            {skills.map((skills)=>{
-                return (
-                <div key={skills.id}>
-                    {skills.name}
-                    <img src={skills.img} alt={skills.name} />
-                    
-                    
-                </div>
+    }, [])
+    
 
-                )
-            })}
-        </div>
+    return(
+        <>
+            
+           <div className="skills">
+               {
+               
+                   skills.map((skill)=>(
+                       <div key={skill.id}>
+                           {skill.name}
+                           <img src={skill.img} alt={skill.name} onClick={() => console.log(skill.name)}/>
+                       </div>
+                   ))
+                }
+           </div>
+        </>
     )
 }
 export default Skills
