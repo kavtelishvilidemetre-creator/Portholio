@@ -11,10 +11,6 @@ function Skills(){
         fetch(url)
         .then(res => res.json())
     .then(data => {
-        setSkills(data)
-        console.log(data)
-    })
-    .then(data => {
       setSkills(data);
       setLoading(false);
     });
@@ -23,7 +19,8 @@ function Skills(){
 
     return(
         <>
-        <h1 className={{loading} ? 'loading' : 'loaded'}>loading...</h1>
+        <h1>my skills</h1>
+        {loading ? <h2 className="loading">Loading...</h2> : null}
            <div className="skills">
                      {skills.map((skill) => (
         <div key={skill.id}>

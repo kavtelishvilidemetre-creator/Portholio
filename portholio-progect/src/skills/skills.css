@@ -12,9 +12,6 @@
     font-size: 35px;
 
 }
-.loaded{
-    visibility: hidden;
-}
 .skills {
     display: flex;
     flex-wrap: wrap;
