@@ -1,8 +1,11 @@
 import Header from './header/header.jsx'
 import './App.css'
 import Skills from "./skills/skills.jsx"
+import { use } from 'react'
 
 function App() {
+  const [dark, setDark] = useState(false)
+
   return (
     <>
       <Header />
