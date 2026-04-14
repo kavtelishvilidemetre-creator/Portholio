@@ -23,7 +23,7 @@ function Skills(){
         {loading ? <h2 className="loading">Loading...</h2> : null}
            <div className="skills">
                      {skills.map((skill) => (
-        <div key={skill.id}>
+        <div onClick={() => console.log(skill.name)}key={skill.id}>
           <p>{skill.name}</p>
           <img src={skill.img} alt={skill.name} />
         </div>
